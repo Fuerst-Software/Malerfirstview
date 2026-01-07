@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meistermalerin – Malermeisterin</title>
+  <meta name="description" content="Malermeisterin: professionelle Malerarbeiten für innen und außen. Verlässliche Angebote, flexible Termine, Farbberatung und Markenprodukte." />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <script defer src="responsive.js"></script>
+
+</head>
+
+<body>
+  <a class="skip" href="#start">Zum Inhalt springen</a>
+
+  <!-- NAV: Reihenfolge exakt wie Screenshot -->
+  <header class="topbar" id="top">
+    <div class="topbar__bg" aria-hidden="true"></div>
+
+    <div class="topbar__inner">
+      <nav class="nav" aria-label="Hauptnavigation">
+        <div class="nav__side nav__side--left">
+          <a class="nav__link is-active" href="index.html">Home</a>
+          <a class="nav__link" href="leistungen.html">Leistungen</a>
+          <a class="nav__link" href="projekte.html">Projekte</a>
+        </div>
+
+        <a class="nav__logo" href="index.html" aria-label="Start">
+          <img src="img/Logo.png" alt="Meistermalerin Logo">
+        </a>
+
+        <div class="nav__side nav__side--right">
+          <a class="nav__link" href="ueber-mich.html">Über mich</a>
+          <a class="nav__link" href="#kontakt">Kontakt</a>
+        </div>
+
+        <button class="nav__burger" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMobile">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+
+      <!-- Mobile Menü -->
+      <div class="navMobile" id="navMobile" hidden>
+        <a href="index.html">Home</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="projekte.html">Projekte</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Herzlich willkommen + farbpalette.png -->
+    <section class="welcome" id="start" aria-label="Herzlich willkommen">
+      <div class="wrap welcome__grid">
+        <div class="welcome__copy">
+          <h1 class="title">Herzlich willkommen</h1>
+
+          <p class="lead">Sie möchten Ihr Heim in neuem Glanz erstrahlen lassen?</p>
+          <p class="lead">Sie wünschen, dass Ihr Zuhause noch wohnlicher wird?</p>
+          <p class="lead">Sie haben Ideen die Sie umsetzen wollen?</p>
+
+          <p class="ctaLine">Ich helfe Ihnen gerne dabei!</p>
+
+          <div class="actions">
+            <a class="btn btn--primary" href="#kontakt">Kontakt aufnehmen</a>
+            <a class="btn btn--ghost" href="#versprechen">Mein Versprechen</a>
+          </div>
+        </div>
+
+        <div class="welcome__media">
+          <img src="img/farbpalette.png" alt="Farbpalette" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Mein Versprechen an Sie -->
+    <section class="section section--paper" id="versprechen" aria-labelledby="promiseTitle">
+      <div class="wrap">
+        <h2 class="sectionTitle sectionTitle--big" id="promiseTitle">Mein Versprechen an Sie</h2>
+
+        <div class="promiseGrid">
+          <article class="promiseTile promiseTile--quality" data-tile tabindex="0" role="button" aria-label="Qualität von der Meisterin">
+            <div class="promiseTile__media" aria-hidden="true"></div>
+            <div class="promiseTile__overlay" aria-hidden="true"></div>
+
+            <div class="promiseTile__content">
+              <h3>Qualität von der<br>Meisterin!</h3>
+              <p>Ob Innen- oder Außenarbeiten, ich garantiere Ihnen professionelle Arbeit zu fairen Preisen!</p>
+            </div>
+          </article>
+
+          <article class="promiseTile promiseTile--quote" data-tile tabindex="0" role="button" aria-label="Verlässliche Kostenvoranschläge">
+            <div class="promiseTile__media" aria-hidden="true"></div>
+            <div class="promiseTile__overlay" aria-hidden="true"></div>
+
+            <div class="promiseTile__content">
+              <h3>Verlässliche<br>Kostenvoranschläge</h3>
+              <p>Bei mir erhalten Sie transparente Angebote auf die Sie sich verlassen können!</p>
+            </div>
+          </article>
+
+          <article class="promiseTile promiseTile--calendar" data-tile tabindex="0" role="button" aria-label="Flexible Terminplanung">
+            <div class="promiseTile__media" aria-hidden="true"></div>
+            <div class="promiseTile__overlay" aria-hidden="true"></div>
+
+            <div class="promiseTile__content">
+              <h3>Flexible Terminplanung</h3>
+              <p>Ich richte mich bei der Termingestaltung für die Erstberatung nach Ihren Wünschen!</p>
+            </div>
+          </article>
+
+          <article class="promiseTile promiseTile--color" data-tile tabindex="0" role="button" aria-label="Farbberatung">
+            <div class="promiseTile__media" aria-hidden="true"></div>
+            <div class="promiseTile__overlay" aria-hidden="true"></div>
+
+            <div class="promiseTile__content">
+              <h3>Farbberatung</h3>
+              <p>Bei der Wahl Ihrer Wunschfarben und -muster stehe ich Ihnen gerne beratend zur Seite!</p>
+            </div>
+          </article>
+
+          <article class="promiseTile promiseTile--brands" data-tile tabindex="0" role="button" aria-label="Markenprodukte">
+            <div class="promiseTile__media" aria-hidden="true"></div>
+            <div class="promiseTile__overlay" aria-hidden="true"></div>
+
+            <div class="promiseTile__content">
+              <h3>Markenprodukte</h3>
+              <p>Der Einsatz hochwertiger Markenprodukte sorgt für ein farbechtes und beständiges Ergebnis!</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section" id="kontakt" aria-labelledby="kontaktTitle">
+      <div class="wrap narrow">
+        <h2 class="sectionTitle" id="kontaktTitle">Kontakt</h2>
+
+        <form class="form" id="contactForm">
+          <div class="form__row">
+            <label>
+              <span>Name</span>
+              <input name="name" required>
+            </label>
+            <label>
+              <span>Telefon</span>
+              <input name="phone">
+            </label>
+          </div>
+
+          <label>
+            <span>E-Mail</span>
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            <span>Nachricht</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--full" type="submit">Senden</button>
+          <p class="note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a class="footerItem" href="#kontakt" aria-label="Kontakt">
+        <span class="footerIcon">☎</span>
+        <span class="footerLabel">Kontakt</span>
+      </a>
+      <a class="footerItem" href="impressum.html" aria-label="Impressum">
+        <span class="footerIcon">📄</span>
+        <span class="footerLabel">Impressum</span>
+      </a>
+      <a class="footerItem" href="datenschutz.html" aria-label="Datenschutz">
+        <span class="footerIcon">🔒</span>
+        <span class="footerLabel">Datenschutz</span>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
